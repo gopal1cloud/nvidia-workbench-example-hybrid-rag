@@ -24,8 +24,9 @@ environment:
     image: huggingface/text-generation-inference:latest
     build_timestamp: "20231011102429"
     name: TGI
-    # supported_architectures:
+    supported_architectures:
     # - amd64
+    - unknown
     cuda_version: "11.8"
     description: The huggingface text-generation-interface base container
     entrypoint_script: ""
